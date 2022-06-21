@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETLABS</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+</head>
+<body style="background-image: url(img/background.jpg); background-size: 100vw 100vh;">
+    <h1>NETLABS</h1>
+    <header id="cabecera">
+    <nav>
+        <ul>
+
+            <li>
+                <a href="Calculadora IP.html">Calculadora IP</a>
+            </li>
+            <li>
+                <a href="Glosario de comandos linux.html">Glosario de comandos linux</a>
+            </li>
+            <li>
+                <a href="Configuración">Configuración</a>
+            </li>
+<!--
+    <button>
+        Calculadora FLSM
+    </button>
+    <button>
+        Glosario de términos
+    </button>
+    <button>
+        Configuración
+    </button>
+<!-->
+
+        </ul>
+    </nav>
+    <form class="cabecera-form" action="#" method="get">
+    </form> 
+</header>
+  <section>
+    <h2>Calculadora FLSM</h2>
+    <h3>Esta sencilla Calculadora de subredes le permite subdividir una red utilizando la técnica FLSM (Máscara de Subred de Longitud Fija); sólo tiene que introducir una dirección IPv4, el prefijo de red y el número de subredes que desea obtener y la calculadora hará el resto</h3>
+<!--Dirección IP-->
+    <label for="Dirección IP">Dirección IP: </label>
+    <input type="text" id = "IP" name="IP"
+    placeholder="192.168.0.0" maxlength="15">
+<!--Submask-->
+    <label for="Mascara de red">Mascara de red: </label>
+    <input type="text" id = "Submask" name="Submask"
+    placeholder="255.255.255.0" maxlength="15">
+<!--Numero de Host-->
+<label for="Hosts por subred">Hosts por subred: </label>
+<input type="text" id = "Hosts" name="Hosts">
+<!--Numero de subredes-->
+<div>
+<label for="Número de subredes">Número de subredes: </label>
+<input type="text" id = "Subredes" name="Subredes">
+</div>
+<button>
+    CALCULAR
+</button>
+  </section>
+
+  <footer id="pie">
+    <p>Derechos reservados</p>
+    <p>Alumno: Ramírez Vázquez Ángel Armando</p>
+	<p>Alumno: Hernández Mendez Edgar Francisco</p>
+    <p>Alumno: Salazar Venegas Jesús Eduardo</p>
+    <p>Grupo: GIR0431</p>
+	<p>Asignatura: Aplicaciones Web</p>
+  </footer>
+</body>
+</html>

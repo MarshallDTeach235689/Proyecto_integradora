@@ -1,0 +1,111 @@
+body{
+    background-image: url(img/background.jpg);
+}
+
+header{
+    float: top;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2{
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h3{
+    color: #000;
+    text-align: justify;
+    font-size: 16px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section{
+    width: 1100px;
+    padding: 32px;
+    border: 2px solid #000;
+    margin: 32px auto;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+button{
+    width: 100px;
+    margin-left: 500px;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+}
+
+label{
+    margin: 2px;
+    margin-left: 10px;
+}
+
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-left: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000;
+    font-size: 15px;
+    clear: both;
+}
+
+
+#cabecera li{
+    width: 100px;
+    margin-top: 30px;
+    display: inline;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    background-color: #96b3ff;
+    padding: 12px;
+    margin: 50px;
+    margin-left: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+}
+
+#cabecera form{
+    float: right;
+    display: inline;
+}
+
+#gnulinux{
+    float:left;
+    margin: 10px;
+}
+
+a {text-decoration: none;}
+a:link {color:whitesmoke;}
+a:visited {color: whitesmoke;}
+a:hover{color: black;}
+a:active{color: green;}

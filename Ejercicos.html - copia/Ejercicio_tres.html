@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cargar articulo  </title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+</head>
+<body>
+    <a href="Ejercicio_uno.html">Login</a>
+    <a href="Ejercicio_dos.html">Registrate</a>
+    <a href="Ejercicio_tres.html">Cargar Articulo</a>
+
+
+    <form action="registro.php" method="post"
+     class="form">
+        <h2>Cargar articulo</h2>
+     <div class="input-contenedor">
+          <i class="fas fa-university icon"></i>
+        
+           <select name="Tipo de Subsistema" > 
+              <option value="Tipo de Subsistema">Tipo de Subsistema</option>
+              <option value="Universidad Tecnológia">Universidad Tecnológia</option>
+              <option value="Universidad Politécnica">Universidad Politécnica</option>
+              <option value="Instituto Tecnológico">Instituto Tecnológico</option>
+            </select>
+              
+              
+       
+      </div>
+
+       <div class="input-contenedor">
+
+         <i class="fas fa-book icon"></i>
+         <input type="text" name="Titulo articulo" placeholder="Título Articulo" class="input-100"> 
+         
+
+      </div>
+
+     
+      <div class="input-contenedor">
+         <i class="fas fa-user icon"></i>
+      <input type="text" name="Autor" placeholder="Autor" class="input-100">
+      
+      </div>
+      <div>
+         <i class="fas fa-book open"></i>
+         <textarea name="resumen" id="resumen" maxlength="200" rows="5" placeholder="Breve resumen"></textarea> 
+     </div>
+
+     <div class="input-contenedor">
+      <i class="fas fa-file icon"></i>
+         <input type="file" placeholder="Archivo " class="input-100" id="select" size="3">
+            
+      </div>
+      <div >
+
+      
+      <input type="submit" value="Cargar Archivo" class="btn-enviar" class="input-100">
+      </div>
+      
+     </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
